@@ -1,0 +1,4 @@
+# Wiki Structure
+- /Notes: General thoughts
+- /Research: Deep dives
+- /Archive: Old stuff
