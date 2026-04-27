@@ -1,7 +1,7 @@
 ---
 title: Recursive Self-Improvement
 date: 2026-04-27
-tags: [#knowledge, #ai, #alignment, #safety]
+tags: [knowledge, ai, alignment, safety]
 ---
 
 # Recursive Self-Improvement
