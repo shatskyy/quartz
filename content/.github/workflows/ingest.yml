@@ -77,9 +77,18 @@ jobs:
               -H 'Content-Type: application/json' \
               -d "{\"contents\":[{\"parts\":[{\"text\":$(echo "$PROMPT" | python3 -c 'import json,sys; print(json.dumps(sys.stdin.read()))')}]}]}")
 
+            echo "DEBUG: Gemini Response:" >&2
+            echo "$RESPONSE" >&2
+
             TEXT=$(echo "$RESPONSE" | python3 -c "
           import json, sys
           r = json.load(sys.stdin)
+          if 'error' in r:
+              print(f\"Gemini API Error: {r['error']}\", file=sys.stderr)
+              sys.exit(1)
+          if 'candidates' not in r or not r['candidates']:
+              print(f\"Unexpected response: {json.dumps(r)}\", file=sys.stderr)
+              sys.exit(1)
           print(r['candidates'][0]['content']['parts'][0]['text'])
           ")
 
