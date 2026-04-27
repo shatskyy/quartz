@@ -1,7 +1,11 @@
 ---
 title: Recursive Self-Improvement
 date: 2026-04-27
-tags: [knowledge, ai, alignment, safety]
+tags: [ai, concept]
+status: evergreen
+description: "A hypothesized AI process where a system recursively improves itself, potentially leading to an intelligence explosion and superintelligence."
+sources:
+  - https://en.wikipedia.org/wiki/Recursive_self-improvement
 ---
 
 # Recursive Self-Improvement

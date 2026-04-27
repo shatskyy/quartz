@@ -1,7 +1,9 @@
 ---
 title: Details That Make Interfaces Feel Better
 date: 2026-04-27
-tags: [design, ui, ux, polish]
+tags: [design, concept]
+status: evergreen
+description: "A collection of micro-level UI/UX decisions — feedback, motion, typography, hover states — that separate functional interfaces from polished ones."
 ---
 
 # Details That Make Interfaces Feel Better

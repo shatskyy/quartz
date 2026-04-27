@@ -25,9 +25,9 @@ This is a structured, interlinked knowledge base inspired by the **Andrej Karpat
 ## 🧠 System Architecture
 *The technical "plumbing" that keeps the garden growing.*
 - **Brain**: Claude 3.7 (Routines) & Gemini 2.5 (Copilot)
-- **Rules**: [[CLAUDE.md]] (AI Code of Conduct)
-- **Map**: [[System Architecture]] (Technical Infrastructure)
-- **Context**: [[llms.txt]] (LLM-readable directory)
+- **Rules**: `CLAUDE.md` (AI Code of Conduct — private, not published)
+- **Map**: `00-Meta/System-Architecture.md` (Technical Infrastructure — private, not published)
+- **Context**: `00-Meta/llms.txt` (LLM-readable directory — private, not published)
 
 ---
 
@@ -38,4 +38,4 @@ This is a structured, interlinked knowledge base inspired by the **Andrej Karpat
 
 ---
 
-###### *Last Updated: {{date}}*
+###### *Last Updated: 2026-04-27*
