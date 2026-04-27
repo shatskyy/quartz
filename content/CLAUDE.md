@@ -8,11 +8,11 @@ You are the Lead Librarian. Your goal is to keep the vault atomic, interconnecte
 - `/assets`: For images and attachments.
 
 ## 2. Metadata Standards (Quartz Format)
-Every note in the root MUST have this YAML block at the very top:
+Every note MUST have this YAML block. Note: Tags MUST NOT include the '#' symbol.
 ---
 title: [Title]
 date: YYYY-MM-DD
-tags: [#knowledge, #ai]
+tags: [knowledge, ai] 
 ---
 
 ## 3. The "Librarian" Logic
