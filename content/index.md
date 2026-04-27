@@ -6,6 +6,8 @@ title: 🏠 Home
 
 This is a structured, interlinked knowledge base inspired by the **Andrej Karpathy LLM Wiki** pattern. It is a living document where knowledge is not just stored, but synthesized and compounded over time.
 
+**Agents:** start from the auto-generated list in `00-Meta/catalog.md` (not published to Quartz). **Chronology:** `00-Meta/log.md`.
+
 ---
 
 ## 🗺️ Knowledge Map
@@ -17,7 +19,6 @@ This is a structured, interlinked knowledge base inspired by the **Andrej Karpat
 
 ### 🌱 Growing Seeds
 *Raw ideas and initial research currently being processed.*
-- [[test]] — Initial sync and logic experiment.
 - [[ui-interface-details]] — Small details that make interfaces feel polished and intentional.
 
 ---

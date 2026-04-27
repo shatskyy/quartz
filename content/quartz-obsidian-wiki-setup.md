@@ -18,7 +18,7 @@ sources:
 
 ## Automation (wiki repo)
 
-Ingest runs in **my-wiki** on pushes to `raw/**` on `main`: **Gemini** first, **Groq** fallback (`ingest_once.py`); JSON apply + `/tmp/pr_meta.json` + **`build_catalog.py`** (catalog skips `CLAUDE.md` / `AGENTS.md`; see vault `CLAUDE.md` §7). Secrets: `GEMINI_API_KEY` and/or `GROQ_API_KEY`, optional model overrides, `GH_TOKEN`. Optional entry via **vault-inbox**. Canonical write-up: vault `00-Meta/System-Architecture.md` (not published here).
+Ingest runs in **my-wiki** on pushes to `raw/**` on `main`: **Gemini** first, **Groq** fallback (`ingest_once.py`); applies JSON (`archive_raw`, `discard_raw`, `log_append`; legacy `delete_raw` mapped in code); writes `/tmp/pr_meta.json`; then **`build_catalog.py`** (regenerates `00-Meta/catalog.md`, skips `CLAUDE.md` / `AGENTS.md`). Secrets: `GEMINI_API_KEY` and/or `GROQ_API_KEY`, optional model overrides, `GH_TOKEN`. Optional entry via **vault-inbox** (commit to `raw/` or Claude Routine). Details: `00-Meta/System-Architecture.md`.
 
 ## Karpathy Philosophy Applied
 
