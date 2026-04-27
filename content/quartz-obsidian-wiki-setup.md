@@ -1,7 +1,7 @@
 ---
 title: Quartz + Obsidian Wiki Setup
 date: 2026-04-27
-tags: [#quartz, #obsidian, #pkm, #karpathy]
+tags: [quartz, obsidian, pkm, karpathy]
 ---
 **Summary**: A personal knowledge base built with Obsidian for editing and Quartz for publishing, following Andrej Karpathy's philosophy of atomic, interlinked notes.
 
