@@ -24,7 +24,7 @@ This is a structured, interlinked knowledge base inspired by the **Andrej Karpat
 
 ## 🧠 System Architecture
 *The technical "plumbing" that keeps the garden growing.*
-- **Brain**: Claude 3.7 (Routines) & Gemini 2.5 (Copilot)
+- **Brain**: GitHub Actions ingest uses **Gemini** first with **Groq** fallback (not Anthropic); Obsidian Copilot default Claude, Gemini as manual alt
 - **Rules**: `CLAUDE.md` (AI Code of Conduct — private, not published)
 - **Map**: `00-Meta/System-Architecture.md` (Technical Infrastructure — private, not published)
 - **Context**: `00-Meta/llms.txt` (LLM-readable directory — private, not published)

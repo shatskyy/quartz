@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "quartz-zeta-kohl.vercel.app",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".github"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

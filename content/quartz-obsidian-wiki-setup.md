@@ -16,6 +16,10 @@ sources:
 - **Obsidian** — local-first Markdown editor; handles authoring, backlinks, and graph view.
 - **Quartz** — static-site generator that converts an Obsidian vault into a fast, searchable website.
 
+## Automation (wiki repo)
+
+Ingest runs in **my-wiki** on pushes to `raw/**` on `main`: **Gemini** first, **Groq** fallback (`ingest_once.py`); JSON apply + `/tmp/pr_meta.json` + **`build_catalog.py`** (catalog skips `CLAUDE.md` / `AGENTS.md`; see vault `CLAUDE.md` §7). Secrets: `GEMINI_API_KEY` and/or `GROQ_API_KEY`, optional model overrides, `GH_TOKEN`. Optional entry via **vault-inbox**. Canonical write-up: vault `00-Meta/System-Architecture.md` (not published here).
+
 ## Karpathy Philosophy Applied
 
 Andrej Karpathy advocates for notes that are small, focused, and heavily cross-linked rather than large monolithic documents. Key principles adopted here:
