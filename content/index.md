@@ -18,6 +18,7 @@ This is a structured, interlinked knowledge base inspired by the **Andrej Karpat
 ### 🌱 Growing Seeds
 *Raw ideas and initial research currently being processed.*
 - [[test]] — Initial sync and logic experiment.
+- [[ui-interface-details]] — Small details that make interfaces feel polished and intentional.
 
 ---
 
