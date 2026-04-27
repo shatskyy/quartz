@@ -20,6 +20,22 @@ Andrej Karpathy advocates for notes that are small, focused, and heavily cross-l
 - **Bi-directional linking** — every note that references a concept links it with `[[Double Brackets]]`; Obsidian and Quartz both render the backlink graph automatically.
 - **Progressive refinement** — notes are never "done"; new information is integrated into the existing note rather than duplicated.
 
+## Known Issues & Gotchas
+
+### YAML Tags — No Hashtags
+
+Quartz throws a **`flow collection` parse error** if tag values in the YAML front matter include a `#` symbol (e.g., `tags: [#quartz, #obsidian]`). Always write tags without the hash:
+
+```yaml
+# Correct
+tags: [quartz, obsidian]
+
+# Breaks Quartz
+tags: [#quartz, #obsidian]
+```
+
+This rule is enforced in [[CLAUDE.md]] under *Metadata Standards*.
+
 ## Source Reference
 
 - [The State of GPT — Andrej Karpathy](https://karpathy.ai/stateofgpt.html)
