@@ -1,13 +1,18 @@
 ---
-title: 🏠 Home
+title: Home
+date: 2026-04-28
+tags: [meta, moc]
+status: evergreen
+description: "The main entry point and overview of the knowledge vault."
 ---
 
-# Welcome to my Digital Garden
+# Welcome to the Wiki Vault
 
-This is a structured, interlinked knowledge base inspired by the **Andrej Karpathy LLM Wiki** pattern. It is a living document where knowledge is not just stored, but synthesized and compounded over time.
+This is the central hub for all knowledge.
 
-**Agents:** start from the auto-generated list in `00-Meta/catalog.md` (not published to Quartz). **Chronology:** `00-Meta/log.md`.
+## Maps of Content (MOCs)
 
+*   [[moc-ai-safety]]
 ---
 
 ## 🗺️ Knowledge Map
@@ -32,13 +37,9 @@ This is a structured, interlinked knowledge base inspired by the **Andrej Karpat
 - **Map**: `00-Meta/System-Architecture.md` (Technical Infrastructure — private, not published)
 - **Context**: `00-Meta/llms.txt` (LLM-readable directory — private, not published)
 
----
+## Recent Notes
 
-## 🏷️ Status Legend
-- 🌱 **Seed**: Raw input or unpolished thought.
-- 🌿 **Evergreen**: Synthesized, well-linked, and verified knowledge.
-- 🔴 **Contradiction**: AI has flagged a conflict between sources.
+*   [[Prioritizing Competitor Search in Startup Validation]]
+*   [[Example Note]]
 
----
-
-###### *Last Updated: 2026-04-27*
+## Last Updated: 2026-04-28
