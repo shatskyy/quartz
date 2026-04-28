@@ -1,24 +1,20 @@
 ---
-title: Welcome to the Wiki
-date: 2024-01-01
-tags: []
+title: Home
+date: 2023-01-01
+tags: [meta, moc]
 status: evergreen
-description: "The main entry point for the wiki."
+description: "The main entry point and overview of the entire wiki vault."
 ---
-# Welcome
+# Welcome to the Wiki Vault
 
-This is the main index for our knowledge vault.
+This is the central hub for all knowledge stored in our vault.
 
-## AI & ML
-* [[Artificial Intelligence]]
-* [[Machine Learning]]
+## Core Concepts
 
-## Productivity & Learning
-* [[Time Blocking]]
-* [[Deep Work]]
-* [[Studying Strategies for Tech Transition]]
+* [[Critical Thinking and Trigger Questions]]
+* [[Active Listening Principles]]
 
-## Systems
-* [[Distributed Systems]]
+## Maps of Content (MOCs)
 
+## Recent Updates
 Last Updated: 2026-04-28
