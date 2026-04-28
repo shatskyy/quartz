@@ -19,6 +19,8 @@ This is a structured, interlinked knowledge base inspired by the **Andrej Karpat
 
 ### 🌱 Growing Seeds
 *Raw ideas and initial research currently being processed.*
+- [[llm-wiki-epistemic-risk]] — The danger of error propagation in LLM wikis, and the RAG solution.
+- [[test]] — Initial sync and logic experiment.
 - [[ui-interface-details]] — Small details that make interfaces feel polished and intentional.
 
 ---
