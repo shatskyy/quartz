@@ -1,34 +1,19 @@
 ---
-title: Welcome to the Vault
-date: 2026-04-29
+title: Home
+date: 2024-05-15
 tags: [meta, moc]
 status: evergreen
-description: "The primary entry point and overview for the Wiki Intelligence Vault, linking to core concepts and maps of content."
+description: "The home base for the knowledge vault, linking to core concepts and maps of content."
 ---
-# Welcome to the Wiki Vault
+# Welcome to the Vault
 
-This is the main entry point for navigating the knowledge base.
+This is the central hub for our [[knowledge base]].
 
 ## Core Concepts
 
-*   [[System of Record]]
-*   [[App sprawl]]
+* [[AI Alignment]]
+* [[Machine Learning]]
 
-## AI & Business Concepts
+## New Notes
 
-*   [[Vertical SaaS Trend]]
-*   [[AI for Small Business Verticals]]
-*   [[AI in Home Services]]
-*   [[Speed-to-Lead AI Copilot]]
-
-## Maps of Content (MOCs)
-
-*   [[MOC-AI-alignment]]
-*   [[MOC-Productivity]]
-
-## System Notes
-
-*   [[00-Meta/catalog]] (Machine-generated, do not edit)
-*   [[00-Meta/log]] (Record of changes)
-
-Last Updated: 2026-04-29
+* [[Cognitive Filters]]
