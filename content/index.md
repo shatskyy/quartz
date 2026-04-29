@@ -1,20 +1,30 @@
 ---
-title: Home
-date: 2023-01-01
-tags: [meta, moc]
+title: Welcome to the Wiki Vault
+date: 2026-04-29
+tags: [meta, synthesis]
 status: evergreen
-description: "The main entry point and overview of the entire wiki vault."
+description: "The starting point for navigating this knowledge vault and its core concepts."
 ---
-# Welcome to the Wiki Vault
 
-This is the central hub for all knowledge stored in our vault.
+# Welcome to the Vault
+
+This is a curated collection of interconnected notes on various topics related to AI, design, and knowledge management.
+
+## Getting Started
+
+- Use the search bar to find specific concepts.
+- Explore the [[Maps of Content]] for structured navigation.
+
+## Recent Notes
+
+- [[LLM-Powered Sales Email Automation Project Idea]] (New, 2026-04-29)
+
+## Maps of Content
 
 ## Core Concepts
 
-* [[Critical Thinking and Trigger Questions]]
-* [[Active Listening Principles]]
+## Project Ideas
 
-## Maps of Content (MOCs)
+- [[project-idea-llm-sales-automation]]
 
-## Recent Updates
-Last Updated: 2026-04-28
+Last Updated: 2026-04-29
