@@ -23,10 +23,11 @@ This is the central hub for our [[knowledge base]].
 - [[00-Meta/catalog]]
 - [[00-Meta/log]]
 
-Last Updated: 2026-04-29
+Last Updated: 2026-04-30
 * [[AI Alignment]]
 * [[Machine Learning]]
 
 ## New Notes
 
 * [[Cognitive Filters]]
+* [[entities/last30days-skill]]
