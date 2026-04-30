@@ -10,7 +10,20 @@ description: "The home base for the knowledge vault, linking to core concepts an
 This is the central hub for our [[knowledge base]].
 
 ## Core Concepts
+- [[Atomic Theory]]
+- [[Evergreen Notes]]
+- [[Personal Knowledge Management]]
+- [[Knowledge Creator Mindset]]
 
+## Maps of Content
+- [[MOC-AI-Safety]]
+- [[MOC-Productivity]]
+
+## System Notes
+- [[00-Meta/catalog]]
+- [[00-Meta/log]]
+
+Last Updated: 2026-04-29
 * [[AI Alignment]]
 * [[Machine Learning]]
 
