@@ -22,8 +22,11 @@ This is the central hub for our [[knowledge base]].
 ## System Notes
 - [[00-Meta/catalog]]
 - [[00-Meta/log]]
+- [[00-Meta/ROADMAP]] — build status and feature order (for agents)
+- [[vision]] — north star for the LLM wiki system (read first for intent)
+- [[CLAUDE]] — full librarian contract and ingest JSON (§7)
 
-Last Updated: 2026-04-30
+Last Updated: 2026-05-01
 * [[AI Alignment]]
 * [[Machine Learning]]
 
