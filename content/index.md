@@ -26,7 +26,7 @@ This is the central hub for our [[knowledge base]].
 - [[vision]] — north star for the LLM wiki system (read first for intent)
 - [[CLAUDE]] — full librarian contract and ingest JSON (§7)
 
-Last Updated: 2026-05-01
+Last Updated: 2026-05-19
 * [[AI Alignment]]
 * [[Machine Learning]]
 
@@ -34,3 +34,4 @@ Last Updated: 2026-05-01
 
 * [[Cognitive Filters]]
 * [[entities/last30days-skill]]
+* [[micro-software-uis-for-dynamic-planning]]
